@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(145, 145, 145);
+}
+nav{
+    background-color: rgb(123, 73, 170);
+}
+.main{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:auto;
+    background-color: rgb(92, 92, 92);
+    color: white;
+
+}
+.main h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.main input{
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.main button{
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 10px;
+    background-color: rgb(163, 97, 224);
+
+}
+.sub{
+display:flex;
+flex-direction: column;
+font-size: large;
+font-weight: 500;
+margin: 20px;
+padding: 20px;
+}
+.dub a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.dub button{
+    background-color: blueviolet;
+}
